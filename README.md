@@ -182,8 +182,8 @@ class ParserConfig:
 Создайте issue в репозитории проекта
 
 ## ДОКУМЕНТАЦИЯ:
-- [Бизнес-требования](https://github.com/SonyaSpirs/Parsing-Bot/blob/main/Бизнес-требования)
-- [Системный анализ](https://github.com/SonyaSpirs/Parsing-Bot/blob/main/Системный%20анализ)
+- [Бизнес требования](https://github.com/SonyaSpirs/Parsing-Bot/blob/main/Бизнес-требования)
+- [Системный анализ](https://github.com/Melisovaazhara/parsing_bot_azhar/blob/main/Системный%20анализ.md)
 - [План архитекеры](https://github.com/Melisovaazhara/parsing_bot_azhar/blob/main/План%20архитекеры.md)
 
 
