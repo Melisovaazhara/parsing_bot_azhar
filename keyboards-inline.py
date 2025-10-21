@@ -1,13 +1,15 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
-def get_article_keyboard(article_hash, page, is_last=False):
+def get_article_keyboard(article_hash, article_url, page, is_last=False):
+    """Создает инлайн клавиатуру для статьи"""
     buttons = [
         [
             InlineKeyboardButton("📖 Полный текст", callback_data=f"full_{article_hash}"),
-            InlineKeyboardButton("🔗 Открыть статью", url=article['link'])
+            InlineKeyboardButton("🔗 Открыть статью", url=article_url)
         ]
     ]
 
+    # Добавляем навигацию для последней статьи
     if is_last:
         nav_buttons = []
         if page > 1:
@@ -17,11 +19,12 @@ def get_article_keyboard(article_hash, page, is_last=False):
 
     return InlineKeyboardMarkup(buttons)
 
-def get_navigation_keyboard(article_hash, page):
+def get_navigation_keyboard(article_hash, article_url, page):
+    """Создает клавиатуру с навигацией"""
     buttons = [
         [
             InlineKeyboardButton("📖 Полный текст", callback_data=f"full_{article_hash}"),
-            InlineKeyboardButton("🔗 Открыть статью", url=article['link'])
+            InlineKeyboardButton("🔗 Открыть статью", url=article_url)
         ],
         [
             InlineKeyboardButton("⬅️ Назад", callback_data=f"prev_{page}"),
