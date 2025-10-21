@@ -184,7 +184,7 @@ class ParserConfig:
 ## ДОКУМЕНТАЦИЯ:
 - [Бизнес-требования](https://github.com/SonyaSpirs/Parsing-Bot/blob/main/Бизнес-требования)
 - [Системный анализ](https://github.com/SonyaSpirs/Parsing-Bot/blob/main/Системный%20анализ)
-- [План архитектуры](https://github.com/SonyaSpirs/Parsing-Bot/blob/main/План%20архитектуры.md)
+- [План архитекеры](https://github.com/Melisovaazhara/parsing_bot_azhar/blob/main/План%20архитекеры.md)
 
 
 Выполнила Мелисова Ажар 31ИС
